@@ -13,7 +13,7 @@
 				<nav class="menu">
 					<ul class="menu__list">
 						<li class="menu__item">
-							<a class="menu__link menu__link--active" href="#home">HOME</a>
+							<a class="menu__link" href="#home">HOME</a>
 						</li>
 						<li class="menu__item">
 							<a class="menu__link" href="#resume">RESUME</a>
@@ -33,9 +33,10 @@
 					</ul>
 				</nav>
 			</div>
+		</div>
 			<div class="main-info">
 				<div class="main-info__container">
-					<img class="main-info__avatar" src="img/avatar.jpg">
+					<img class="main-info__avatar" src="img/avatar.jpg" alt="моя фотография">
 					<h1 class="main-info__title-hello>">Hi, I'm <span class="main-info__my-name">Vikky Mikky!</span></h1>
 					<p class="main-info__position-name">Project Manager, Intern Developer</p>
 					<hr class="main-info__line-gradient">
@@ -53,16 +54,16 @@
 			</div>
 			<div class="details">
 				<div class="details__container">
-					<label class="details__title">HOME</label>
+					<label class="details__title"><a name="home">HOME</a></label>
 					<hr class="details__line_under_title">
 					<div class="details__subtitle">
 						<label class="details__subtitle-about-me"><span class="fa-solid fa-child-dress"></span>About Me</label>
 					</div>
-					<p class="details__home-text">I am 34 old housewife with two kids and lovely husband. Jesus, like insta-crazy-mommy. I wish to play Diablo 2 and retro-games and reading books but i am adult woman instead. Bad luck. I have 2 parrots, but i hate them. And dog also. He makes me thiner. Probably I do not want to work at bodyshop but still I need a resume. </p>
-					<img class="details__about" src="img/about.jpg">
+					<p class="details__home-text">I am 34 old housewife with two kids and husband. Jesus, like insta-crazy-mommy. I wish to play Diablo 2 and retro-games and reading books but i am adult woman instead. Bad luck. I have 2 parrots, but i hate them. And dog also. He makes me thiner. Probably I do not want to work at bodyshop but still I need a resume. </p>
+					<img class="details__about" src="img/about.jpg" alt="фотография семьи">
 				</div>
 				<div class="details__container">
-					<label class="details__title">RESUME</label>
+					<label class="details__title"><a name="resume">RESUME</a></label>
 					<hr class="details__line_under_title">
 					<div class="button-wrapper">
 						<button class="resume-button"><span class="fa-solid fa-download"></span>DOWNLOAD MY RESUME </button>
@@ -103,7 +104,7 @@
 					</div>
 				</div>
 				<div class="details__container-skills">
-					<label class="details__title">SKILLS</label>
+					<label class="details__title"><a name="skills">SKILLS</a></label>
 					<hr class="details__line_under_title">
 					<div class="skills_column">
 					<div class="details__subtitle">
@@ -124,7 +125,7 @@
 					<div class="tech-stack-tools-icon"><span class="fa-brands fa-trello"></span><span class="tech-stack-tools-name">TRELLO</span></div>
 				</div>
 				<div class="details__container">
-					<label class="details__title">PORTFOLIO</label>
+					<label class="details__title"><a name="portfolio">PORTFOLIO</a></label>
 					<hr class="details__line_under_title">
 					<p class="portfolio__description"> Some examples of my impressive works.</p>
 					<div class="portfolio-examples">
@@ -132,21 +133,22 @@
 						<img class="portfolio_photo" src="img/2018.jpg">
 						<img class="portfolio_photo" src="img/2022.jpg">
 					</div>
-				</div>
-				
+				</div>	
 				<div class="details__container">
-					<label class="details__title">BLOG</label>
+					<label class="details__title"><a name="blog">BLOG</a></label>
 					<hr class="details__line_under_title">
 					<div class="blog-wrapper">
-						<img class="blog_photo" src="img/blog.jpg">
-						<label class="blog-title">How to be a perfect wife but not actually. 10 lifehacks to trick to get married.</label>
-						<span class="icon"><span><span class="blog-date"></span>
-						<p class="blog-description"> No need to know how to cook borsh anymore. I will tell you how to be married without being a perfect woman.</p>
-						<a href="blog-link">Read More</a>
+						<div class="img-wrapper">
+							<img class="blog_photo" src="img/blog.jpg">
+						</div>	
+							<h3 class="blog-title">How to be a perfect wife but not actually. 10 lifehacks to trick to get married.</h3>
+							<span class="icon"></span><span class="blog-date"></span>
+							<p class="blog-description"> No need to know how to cook borsh anymore. I will tell you how to be married without being a perfect woman.</p>
+							<a href="##" class="blog-link">Read More</a>
 					</div>
 				</div>
 				<div class="details__container">
-					<label class="details__title">CONTACT ME</label>
+					<label class="details__title"><a name="contact">CONTACT ME</a></label>
 					<hr class="details__line_under_title">
 					<form class="contact-wrapper">
 						<fieldset>
@@ -158,14 +160,10 @@
 						</fieldset>
 							<input type="Send" value="Send" />
 						</form>
-					</div>
+					
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
-</div>
-</body>
-<footer>
-</footer>
-</html>
+	</body>
+	<footer>
+	</footer>
+	</html>

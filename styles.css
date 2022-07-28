@@ -25,9 +25,10 @@ body {
 	background-color: #eeeeee;;
 	width: 37%;
 	margin-left:  10px;
-	min-height:80vh;
+	max-height:80vh;
 	justify-content: space-around;
 	text-align: center;
+	overflow: auto; 
 }
 
 .main-info__container {
@@ -135,6 +136,8 @@ body {
 
 .details {
 	padding: 40px 60px;
+	overflow: auto; 
+	max-height:80vh;
 }
 
 .details__title {

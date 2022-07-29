@@ -3,14 +3,12 @@ body {
 	font-family: Times New Roman, serif;
 	background-image: url("img/bg2.jpg");
 	background-repeat: no-repeat;
-  	background-size: cover;
-	  
+	background-size: cover;	  
 }
 
 .main-page {
 	display: flex;
 	margin: 60px 0 10px 100px;
-
 }
 
 .aside {	
@@ -30,8 +28,7 @@ body {
 	height:80vh;
 	justify-content: space-around;
 	text-align: center;
-	overflow: auto; 
-	
+	overflow: auto; 	
 }
 
 .main-info__container {
@@ -57,40 +54,35 @@ body {
 	color:  #ffffff;
 	background-color: #09aeac;
 	margin-bottom: 5px;
-    cursor: pointer;
-
+	cursor: pointer;
 }
 
 .menu__link {
 	text-decoration: none;
 	color: #ffffff;
 	width: 100%;
-  	height: 100%;
-  	display: inline-block;
+	height: 100%;
+	display: inline-block;
 	padding-left: 5px;
 }
 
 
 .menu__item:active {
-    background-color: #021533; 
-
+	background-color: #021533; 
 }
 
 .menu__item:hover {
-    background-color: #021533;
+	background-color: #021533;
 }
 
 .menu__item:visited {
-    background-color: #021533; 
+	background-color: #021533; 
 }
 
 
 /********************/
 /* MAIN INFO STYLES */
 /********************/
-
-.main-info {
-}
 
 .main-info__avatar {
 	width: 40%;
@@ -106,9 +98,9 @@ body {
 
 .main-info__line-gradient {
 	background: linear-gradient( to right, transparent, grey, transparent);
-    border: none;
-    height: 1px;
-    margin-bottom: 30px;
+	border: none;
+	height: 1px;
+	margin-bottom: 30px;
 }
 
 .main-info__contact {
@@ -121,8 +113,8 @@ body {
 	background-color: black;
 	display: inline-block;
 	width: 20px;
-    height: 20px;
-    line-height: 20px;
+	height: 20px;
+	line-height: 20px;
 	color: white;
 }
 
@@ -132,13 +124,12 @@ body {
 
 .details {
 	padding: 40px 60px;
-    overflow: auto; 
-    height:68vh;
+	overflow: auto; 
+	height:68vh;
 	margin: 0 20px 10px 20px;
-    background-color: #eeeeee;
-    width: 28%;
-    justify-content: space-around;
-
+	background-color: #eeeeee;
+	width: 28%;
+	justify-content: space-around;
 }
 
 .details__title {
@@ -277,8 +268,8 @@ body {
 }
 
 .blog-title {
-    color:  #021533;
-    font-weight: bold;
+	color:  #021533;
+	font-weight: bold;
 }
 
 .blog-link {
@@ -302,12 +293,12 @@ fieldset {
 	border: none;
 	padding: 2rem 0;
 }
-  
+
 fieldset:not(:last-of-type) {
 	border-bottom: 3px solid #09aeac;
 }
 
-  input, textarea {
+input, textarea {
 	background-color: #eeeeee;
 	border: 2px solid #09aeac;
 	margin: 10px 0 0 0;
@@ -316,22 +307,22 @@ fieldset:not(:last-of-type) {
 	border-radius: 5px;
 	outline-color: #719ECE;
 }
-  
-  textarea {
-	width: 83%;
- }
 
-  input[type="Send"] {
+textarea {
+	width: 83%;
+}
+
+input[type="Send"] {
 	width: 30%;
 	margin: 1em auto;
 	height: 2em;
 	font-size: 1.1rem;
 	background-color: #eeeeee;
-    text-align: center;
-    color: #fff;
-    background: #09aeac;
+	text-align: center;
+	color: #fff;
+	background: #09aeac;
 	margin-left: auto;
-  }
+}
 
 
 input[type="Send"]:hover {
@@ -340,10 +331,10 @@ input[type="Send"]:hover {
 }
 
 input[type="Send"]:active {
-  background-color: #021533;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  cursor: pointer;
+	background-color: #021533;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	cursor: pointer;
 }
 
 .send-button-wrapper {

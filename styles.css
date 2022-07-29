@@ -4,17 +4,17 @@ body {
 	background-image: url("img/bg2.jpg");
 	background-repeat: no-repeat;
   	background-size: cover;
-	  overflow: hidden;
+	  
 }
 
 .main-page {
 	display: flex;
-	margin: 60px 0 10px 120px;
+	margin: 60px 0 10px 100px;
 
 }
 
 .aside {	
-	width: 20%;
+	width: 15%;
 	min-height:40vh;
 }
 
@@ -25,9 +25,9 @@ body {
 
 .main-info {
 	background-color: #eeeeee;;
-	width: 40%;
+	width: 35%;
 	margin-left:  10px;
-	height:90vh;
+	height:80vh;
 	justify-content: space-around;
 	text-align: center;
 	overflow: auto; 
@@ -64,6 +64,10 @@ body {
 .menu__link {
 	text-decoration: none;
 	color: #ffffff;
+	width: 100%;
+  	height: 100%;
+  	display: inline-block;
+	padding-left: 5px;
 }
 
 
@@ -74,13 +78,12 @@ body {
 
 .menu__item:hover {
     background-color: #021533;
-    
-
 }
 
 .menu__item:visited {
     background-color: #021533; 
 }
+
 
 /********************/
 /* MAIN INFO STYLES */
@@ -110,8 +113,7 @@ body {
 
 .main-info__contact {
 	background-color: #09aeac;
-	height:  2em;
-	padding-top:  10px;
+	line-height:  2em;
 	color:  #fff;
 }
 
@@ -131,11 +133,10 @@ body {
 .details {
 	padding: 40px 60px;
     overflow: auto; 
-    height:90vh;
-    margin-right: 20px;
-    margin-left: 10px;
+    height:68vh;
+	margin: 0 20px 10px 20px;
     background-color: #eeeeee;
-    width: 40%;
+    width: 28%;
     justify-content: space-around;
 
 }
@@ -235,7 +236,7 @@ body {
 }
 
 .tech-stack-tools-icon .fa-brands {
-	height: 20px;
+	height: 15px;
 	width: 20px;
 	color:  #fff;
 	background-color: #0eb5b2;
@@ -246,8 +247,8 @@ body {
 	height: 20px;
 	width: 80px;
 	color:  #fff;
-	background-color: #09aeac;
-	padding: 5px;
+	background-color: #0eb5b2;
+	padding: 4px;
 }
 
 /********************/
@@ -257,6 +258,7 @@ body {
 .portfolio_photo {
 	width: 150px;
 	height: 150px;
+	border: 3px solid #eeeeee;
 	
 }
 
@@ -311,7 +313,7 @@ fieldset:not(:last-of-type) {
 	margin: 10px 0 0 0;
 	width: 40%;
 	min-height: 3em;
-	border-radius: 5%;
+	border-radius: 5px;
 	outline-color: #719ECE;
 }
   
@@ -320,8 +322,6 @@ fieldset:not(:last-of-type) {
  }
 
   input[type="Send"] {
-	display: block;
-	float: right;
 	width: 30%;
 	margin: 1em auto;
 	height: 2em;
@@ -330,6 +330,7 @@ fieldset:not(:last-of-type) {
     text-align: center;
     color: #fff;
     background: #09aeac;
+	margin-left: auto;
   }
 
 
@@ -343,4 +344,8 @@ input[type="Send"]:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   cursor: pointer;
+}
+
+.send-button-wrapper {
+	display: flex;
 }
